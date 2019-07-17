@@ -21,7 +21,7 @@ public class UserRepositoryTest {
   private UserRepository userRepository;
 
   @Test
-  public void testSave() {
+  public void test_should_return_user_when_the_user_exist() {
     //given
     User user = new User();
     user.setName("test");
